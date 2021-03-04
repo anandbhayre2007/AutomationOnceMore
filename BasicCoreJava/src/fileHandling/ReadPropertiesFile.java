@@ -1,0 +1,40 @@
+package fileHandling;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ReadPropertiesFile {
+
+	public static void main(String[] args) throws IOException {
+		
+		FileInputStream file= new FileInputStream("D:\\AutomationBatch3\\BasicCoreJava\\src\\fileHandling\\OR.properties");
+
+		Properties prop= new Properties();
+		
+		prop.load(file);
+		
+		System.out.println(prop.get("name"));
+		sum(10, 20);
+		
+	}
+	
+	public static  int sum(int a, int b)
+	{
+		try {
+			System.exit(0);
+			return a+b;
+			
+		}catch(Exception e)
+		{
+			return 10;
+		}finally {
+			System.out.println("Anand");
+		}
+	}
+
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-04T21:49:01 IST" name="Default suite" finished-at="2021-03-04T21:49:57 IST" duration-ms="55793">
+    <groups>
+    </groups>
+    <test started-at="2021-03-04T21:49:01 IST" name="Default test" finished-at="2021-03-04T21:49:57 IST" duration-ms="55793">
+      <class name="webElements.LaunchBrowser">
+        <test-method signature="launchBrowser()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:01 IST" name="launchBrowser" finished-at="2021-03-04T21:49:09 IST" duration-ms="7523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="validate_motorCycle_event_VehicalData()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:09 IST" name="validate_motorCycle_event_VehicalData" finished-at="2021-03-04T21:49:10 IST" depends-on-methods="webElements.LaunchBrowser.launchBrowser" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_motorCycle_event_VehicalData -->
+        <test-method signature="validate_Make_Dropdown()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:10 IST" name="validate_Make_Dropdown" finished-at="2021-03-04T21:49:14 IST" depends-on-methods="webElements.LaunchBrowser.validate_motorCycle_event_VehicalData" duration-ms="4504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_Make_Dropdown -->
+        <test-method signature="validate_EnginePerformance_textBox()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:14 IST" name="validate_EnginePerformance_textBox" finished-at="2021-03-04T21:49:14 IST" depends-on-methods="webElements.LaunchBrowser.validate_Make_Dropdown" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_EnginePerformance_textBox -->
+        <test-method signature="validate_DateOfManufacture()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:14 IST" name="validate_DateOfManufacture" finished-at="2021-03-04T21:49:43 IST" depends-on-methods="webElements.LaunchBrowser.validate_EnginePerformance_textBox" duration-ms="28932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_DateOfManufacture -->
+        <test-method signature="completeTheForm()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:43 IST" name="completeTheForm" finished-at="2021-03-04T21:49:44 IST" depends-on-methods="webElements.LaunchBrowser.validate_DateOfManufacture" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeTheForm -->
+        <test-method signature="radioButtonAndCheckbox()[pri:0, instance:webElements.LaunchBrowser@2e377400]" started-at="2021-03-04T21:49:44 IST" name="radioButtonAndCheckbox" finished-at="2021-03-04T21:49:57 IST" depends-on-methods="webElements.LaunchBrowser.completeTheForm" duration-ms="12528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButtonAndCheckbox -->
+      </class> <!-- webElements.LaunchBrowser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,9 @@
+package webElements;
+
+public class LaunchBrowser2 {
+
+	public void test1()
+	{
+		
+	}
+}

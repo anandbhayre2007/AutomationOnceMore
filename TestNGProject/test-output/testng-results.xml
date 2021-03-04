@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="31" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-24T22:13:13 IST" name="Suite" finished-at="2021-02-24T22:22:57 IST" duration-ms="583530">
+    <groups>
+    </groups>
+    <test started-at="2021-02-24T22:13:13 IST" name="Achievements Tests" finished-at="2021-02-24T22:18:21 IST" duration-ms="308077">
+      <class name="achievements.FunctionalTests">
+        <test-method is-config="true" signature="achievementsPreCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:13:13 IST" name="achievementsPreCondition" finished-at="2021-02-24T22:14:34 IST" duration-ms="80440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- achievementsPreCondition -->
+        <test-method is-config="true" signature="functionalTestsPreCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:14:34 IST" name="functionalTestsPreCondition" finished-at="2021-02-24T22:15:09 IST" duration-ms="35201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTestsPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:09 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:15:21 IST" duration-ms="12105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:21 IST" name="test1" finished-at="2021-02-24T22:15:31 IST" duration-ms="10428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:31 IST" name="commonPostCondition" finished-at="2021-02-24T22:15:39 IST" duration-ms="8112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:39 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:15:42 IST" duration-ms="2505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:42 IST" name="test2" finished-at="2021-02-24T22:15:47 IST" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:47 IST" name="commonPostCondition" finished-at="2021-02-24T22:15:51 IST" duration-ms="4505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:51 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:15:55 IST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:55 IST" name="test3" finished-at="2021-02-24T22:15:59 IST" duration-ms="4475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:15:59 IST" name="commonPostCondition" finished-at="2021-02-24T22:16:06 IST" duration-ms="7001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="functionalTestsPostCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:16:06 IST" name="functionalTestsPostCondition" finished-at="2021-02-24T22:16:28 IST" duration-ms="21960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functionalTestsPostCondition -->
+        <test-method is-config="true" signature="achievementsPostCondition()[pri:0, instance:achievements.FunctionalTests@7b02881e]" started-at="2021-02-24T22:17:13 IST" name="achievementsPostCondition" finished-at="2021-02-24T22:18:21 IST" duration-ms="67898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- achievementsPostCondition -->
+      </class> <!-- achievements.FunctionalTests -->
+      <class name="achievements.DBErrors">
+        <test-method is-config="true" signature="dbErrorsPreCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:16:28 IST" name="dbErrorsPreCondition" finished-at="2021-02-24T22:16:52 IST" duration-ms="23297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbErrorsPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:16:52 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:16:57 IST" duration-ms="4929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="achievements_saveAchievement_userInitiated()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:16:57 IST" name="achievements_saveAchievement_userInitiated" finished-at="2021-02-24T22:16:58 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- achievements_saveAchievement_userInitiated -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:16:58 IST" name="commonPostCondition" finished-at="2021-02-24T22:16:59 IST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:16:59 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:17:01 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:01 IST" name="test1" finished-at="2021-02-24T22:17:02 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:02 IST" name="commonPostCondition" finished-at="2021-02-24T22:17:03 IST" duration-ms="1322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:03 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:17:06 IST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:06 IST" name="test2" finished-at="2021-02-24T22:17:07 IST" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:07 IST" name="commonPostCondition" finished-at="2021-02-24T22:17:08 IST" duration-ms="1168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:08 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:17:10 IST" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:10 IST" name="test3" finished-at="2021-02-24T22:17:11 IST" duration-ms="1609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:11 IST" name="commonPostCondition" finished-at="2021-02-24T22:17:12 IST" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="dbErrorsPostCondition()[pri:0, instance:achievements.DBErrors@1ebd319f]" started-at="2021-02-24T22:17:12 IST" name="dbErrorsPostCondition" finished-at="2021-02-24T22:17:13 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbErrorsPostCondition -->
+      </class> <!-- achievements.DBErrors -->
+    </test> <!-- Achievements Tests -->
+    <test started-at="2021-02-24T22:18:21 IST" name="FreeGames Tests" finished-at="2021-02-24T22:21:19 IST" duration-ms="178097">
+      <class name="freeGames.BonusOffers">
+        <test-method is-config="true" signature="freeGamesPreCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:18:21 IST" name="freeGamesPreCondition" finished-at="2021-02-24T22:19:49 IST" duration-ms="87732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeGamesPreCondition -->
+        <test-method is-config="true" signature="BonusOffersPreCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:19:49 IST" name="BonusOffersPreCondition" finished-at="2021-02-24T22:20:01 IST" duration-ms="12106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BonusOffersPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:01 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:03 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:03 IST" name="test1" finished-at="2021-02-24T22:20:04 IST" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:04 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:05 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:05 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:06 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:06 IST" name="test2" finished-at="2021-02-24T22:20:07 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:07 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:08 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:08 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:09 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:09 IST" name="test3" finished-at="2021-02-24T22:20:11 IST" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:11 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:12 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="BonusOffersPostCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:12 IST" name="BonusOffersPostCondition" finished-at="2021-02-24T22:20:13 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BonusOffersPostCondition -->
+        <test-method is-config="true" signature="freeGamesPostCondition()[pri:0, instance:freeGames.BonusOffers@3943a2be]" started-at="2021-02-24T22:20:31 IST" name="freeGamesPostCondition" finished-at="2021-02-24T22:21:19 IST" duration-ms="47916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeGamesPostCondition -->
+      </class> <!-- freeGames.BonusOffers -->
+      <class name="freeGames.CashOffers">
+        <test-method is-config="true" signature="CashOffersPreCondition()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:13 IST" name="CashOffersPreCondition" finished-at="2021-02-24T22:20:18 IST" duration-ms="5119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CashOffersPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:18 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:19 IST" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:19 IST" name="test1" finished-at="2021-02-24T22:20:20 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:20 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:21 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:21 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:22 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:22 IST" name="test2" finished-at="2021-02-24T22:20:24 IST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:24 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:25 IST" duration-ms="1281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:25 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:20:27 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:27 IST" name="test3" finished-at="2021-02-24T22:20:29 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:29 IST" name="commonPostCondition" finished-at="2021-02-24T22:20:30 IST" duration-ms="1093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="BonusOffersPostCondition()[pri:0, instance:freeGames.CashOffers@343570b7]" started-at="2021-02-24T22:20:30 IST" name="BonusOffersPostCondition" finished-at="2021-02-24T22:20:31 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BonusOffersPostCondition -->
+      </class> <!-- freeGames.CashOffers -->
+    </test> <!-- FreeGames Tests -->
+    <test started-at="2021-02-24T22:21:19 IST" name="TimersAndSweepers Tests" finished-at="2021-02-24T22:22:57 IST" duration-ms="97219">
+      <class name="timersAndSweepers.SweeperInitiated">
+        <test-method is-config="true" signature="SweeperInitiatedPreCondition()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:01 IST" name="SweeperInitiatedPreCondition" finished-at="2021-02-24T22:22:19 IST" duration-ms="18497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SweeperInitiatedPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:19 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:22:27 IST" duration-ms="7801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:27 IST" name="test1" finished-at="2021-02-24T22:22:30 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:30 IST" name="commonPostCondition" finished-at="2021-02-24T22:22:32 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:32 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:22:33 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:33 IST" name="test2" finished-at="2021-02-24T22:22:40 IST" duration-ms="6482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:40 IST" name="commonPostCondition" finished-at="2021-02-24T22:22:41 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:41 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:22:47 IST" duration-ms="5752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:47 IST" name="test3" finished-at="2021-02-24T22:22:50 IST" duration-ms="3726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:50 IST" name="commonPostCondition" finished-at="2021-02-24T22:22:52 IST" duration-ms="1806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="SweeperInitiatedPostCondition()[pri:0, instance:timersAndSweepers.SweeperInitiated@c03cf28]" started-at="2021-02-24T22:22:52 IST" name="SweeperInitiatedPostCondition" finished-at="2021-02-24T22:22:54 IST" duration-ms="1426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SweeperInitiatedPostCondition -->
+      </class> <!-- timersAndSweepers.SweeperInitiated -->
+      <class name="timersAndSweepers.UserInitiated">
+        <test-method is-config="true" signature="oneTimeSetUp()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:11:19 IST" name="oneTimeSetUp" finished-at="2021-02-24T22:13:13 IST" duration-ms="114521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method is-config="true" signature="timersAndSweepersPreCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:19 IST" name="timersAndSweepersPreCondition" finished-at="2021-02-24T22:21:29 IST" duration-ms="9314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timersAndSweepersPreCondition -->
+        <test-method is-config="true" signature="UserInitiatedPreCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:29 IST" name="UserInitiatedPreCondition" finished-at="2021-02-24T22:21:36 IST" duration-ms="7708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserInitiatedPreCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:36 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:21:38 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test1()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:38 IST" name="test1" finished-at="2021-02-24T22:21:39 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:39 IST" name="commonPostCondition" finished-at="2021-02-24T22:21:41 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:41 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:21:42 IST" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test2()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:42 IST" name="test2" finished-at="2021-02-24T22:21:44 IST" duration-ms="2194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:44 IST" name="commonPostCondition" finished-at="2021-02-24T22:21:45 IST" duration-ms="1370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="commonPreConditionForAllTheTestCases()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:45 IST" name="commonPreConditionForAllTheTestCases" finished-at="2021-02-24T22:21:47 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPreConditionForAllTheTestCases -->
+        <test-method signature="test3()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:47 IST" name="test3" finished-at="2021-02-24T22:21:48 IST" duration-ms="1537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="commonPostCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:48 IST" name="commonPostCondition" finished-at="2021-02-24T22:21:50 IST" duration-ms="1663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonPostCondition -->
+        <test-method is-config="true" signature="UserInitiatedPostCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:21:50 IST" name="UserInitiatedPostCondition" finished-at="2021-02-24T22:22:01 IST" duration-ms="10678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserInitiatedPostCondition -->
+        <test-method is-config="true" signature="timersAndSweepersPostCondition()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:22:54 IST" name="timersAndSweepersPostCondition" finished-at="2021-02-24T22:22:57 IST" duration-ms="2916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timersAndSweepersPostCondition -->
+        <test-method is-config="true" signature="oneTimeTearDown()[pri:0, instance:timersAndSweepers.UserInitiated@1356d4d4]" started-at="2021-02-24T22:22:57 IST" name="oneTimeTearDown" finished-at="2021-02-24T22:23:04 IST" duration-ms="7570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeTearDown -->
+      </class> <!-- timersAndSweepers.UserInitiated -->
+    </test> <!-- TimersAndSweepers Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
